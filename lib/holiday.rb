@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
     hash_of_holidays.each do |holiday, supplies|
       supplies.each do |supply|
       if supply == "BBQ"
-        season.values.flatten
+        holiday_hash[season].values.flatten
       end
       end
 
