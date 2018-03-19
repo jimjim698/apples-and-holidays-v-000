@@ -66,11 +66,11 @@ def all_supplies_in_holidays(holiday_hash)
     hash_of_holidays.each do |holiday, supplies|
       capitalized = holiday.split.each do |name|
         name.capitalize!
-      end.join 
+      end.join
       puts " #{capitalized}: #{supplies.join(,)}"
     end
   end
-    
+end
 
 end
 
