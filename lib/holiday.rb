@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
       puts " #{capitalized}: #{supplies.join(,)}"
     end
   end
-end
 
 end
 
